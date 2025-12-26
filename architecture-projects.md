@@ -1,11 +1,5 @@
+# Lydia Seils — Architecture Projects
 
----
-layout: default
-title: Architecture Projects
-permalink: /architecture-projects/
----
-
-# Architecture Projects
 
 A curated selection of studio and professional work focusing on space, materiality, and performance.
 
