@@ -36,8 +36,8 @@
   width: 100%;            /* fill the column width */
   height: 220px;          /* fixed height for uniform tiles */
   object-fit: cover;      /* crop without distortion */
-  border: 1px solid #1F1F1F;
-  border-radius: 6px;
+  // border: 1px solid #1F1F1F;
+  // border-radius: 6px;
   background: #f8f8f8;
 }
 
@@ -59,7 +59,7 @@
 .site-header-row {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0rem;
   justify-content: space-between; /* title left, tabs right */
   flex-wrap: wrap; /* wrap on small screens */
   margin-bottom: 2.5rem;
@@ -122,7 +122,7 @@
 
 /* Footer polish */
 .site-footer {
-  margin-top: 3rem;
+  margin-top: 0rem;
   font-size: 0.9rem;
   color: #1F1F1F;
   background-color: #E0E0E0;
