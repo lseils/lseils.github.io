@@ -1,10 +1,9 @@
 theme: jekyll-theme-minimal
+
 title: Lydia Seils - Selected Works
 description: >
-  Hi, I am currently a M.S. Architecture student at Georgia Institute of Technology.
-  Through my B.Arch program at Rensselaer Polytechnic Institute, I have become proficient in architectural design while fine-tuning technical skills.
-  In addition to architecture expertise, I have discovered computational interests and coding skills.
-  My designation in my grad program is in computational design, where I explore how design tools affect architectural processes.
-  Work shown in this collection includes contemporary architectural projects as well as design aids I have created.
+  Portfolio of contemporary architectural projects and computational design tools.
 
 
+# Optional: use pretty permalinks for clean URLs
+permalink: /:title/
