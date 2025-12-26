@@ -1,13 +1,15 @@
 
-{% assign url = page.url | relative_url %}
-<nav class="site-nav tabs">
+<nav class="site-nav tabs" aria-label="Primary">
   <a class="tab" href="{{ '/' | relative_url }}"
-     {% if url == '/' %}aria-current="page"{% endif %}>Home</a>
+     {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
 
   <a class="tab" href="{{ '/architecture-projects/' | relative_url }}"
-     {% if url == '/architecture-projects/' %}aria-current="page"{% endif %}>Architecture Projects</a>
+     {% if page.url == '/architecture-projects/' %}aria-current="page"{% endif %}>
+     Architecture Projects
+  </a>
 
   <a class="tab" href="{{ '/computation-projects/' | relative_url }}"
-     {% if url == '/computation-projects/' %}aria-current="page"{% endif %}>Computation Projects</a>
+     {% if page.url == '/computation-projects/' %}aria-current="page"{% endif %}>
+     Computation Projects
+  </a>
 </nav>
-``
