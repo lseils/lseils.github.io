@@ -4,10 +4,6 @@ title: Architecture Projects
 permalink: /architecture-projects/
 ---
 
-# Lydia Seils — Architecture Projects
-
-
-A curated selection of studio and professional work focusing on space, materiality, and performance.
 ---
 ## Civic Unity
 **City Hall**
