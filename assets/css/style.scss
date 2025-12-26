@@ -50,7 +50,7 @@
 
 /* Layout container */
 .container {
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -90,7 +90,7 @@
 .tab {
   text-decoration: none;
   padding: 0.4rem 0.7rem;
-  border: 1px solid #1F1F1F;
+  border: none; //original 1px solid #1F1F1F
   border-radius: 6px; //original was 6px
   background: #E0E0E0;
   color: #5F5F5F; //
@@ -106,7 +106,6 @@
 /* Active tab */
 .tab[aria-current="page"] {
   background: #7B8D68;
-  border-color: #1F1F1F;
   color: #99A88A;
 }
 
@@ -117,7 +116,7 @@
 }
 
 .content {
-  padding-top: 2.5rem; /* Optional if you only want margin from header */
+  padding-top: 4.5rem; /* Optional if you only want margin from header */
 }
 
 
