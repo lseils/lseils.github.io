@@ -1,3 +1,9 @@
+---
+layout: default
+title: Architecture Projects
+permalink: /architecture-projects/
+---
+
 # Lydia Seils — Architecture Projects
 
 
