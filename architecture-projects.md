@@ -3,6 +3,11 @@ layout: default
 title: Architecture Projects
 permalink: /architecture-projects/
 ---
+## Contents
+![Courtyard](assets/img/arch/Courtyard.png){:width="200"} ![Courtyard](assets/img/arch/Ground-test.jpg){:width="200"} 
+![Courtyard](assets/img/arch/EXTREND2.jpg){:width="200"} ![Courtyard](assets/img/arch/finalIndoorRender.9.26.jpg){:width="200"}
+![Courtyard](assets/img/arch/AD3-rerender3--.png){:width="200"} ![Courtyard](assets/img/arch/2021-04-19-final.png){:width="200"}
+
 
 ---
 ## Civic Unity
