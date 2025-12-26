@@ -47,7 +47,7 @@ city from the water, reinforcing Troy’s connection to its historic riverfront.
     <figcaption>Courtyard perspective</figcaption>
   </figure>
   <figure class="figure">
-    <img src="assets/img/arch/Courtyard.png" alt="Material study">
+    <img src="assets/img/arch/A3-AxonModelPhoto.jpg" alt="Material study">
     <figcaption>Material study</figcaption>
   </figure>
   <figure class="figure">
@@ -89,5 +89,5 @@ its community. It will provide a variety of classes and services for immigrants
 to help them navigate life in the United States, child care for working class
 families, and after school programs to help students reach their full potential.*
 
-![Project 2 image](assets/img/arch/project2.jpg)
+![Project 2 image](assets/img/arch/AerialNightRender.jpg)
 ![Project 2 image](assets/img/arch/project2.jpg)
