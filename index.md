@@ -1,8 +1,5 @@
 # Lydia Seils — Selected Works
----
-layout: default
-title: Home
----
+
 
 
 
