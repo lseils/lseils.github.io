@@ -6,53 +6,36 @@
 @import "jekyll-theme-minimal";
 
 
+/* Grid container */
 .img-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 1rem; /* space between items */
+  margin: 1rem 0;
 }
 
+/* Each figure block */
 .figure {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.4rem; /* space between image and caption */
 }
 
+/* Image styling */
 .figure img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-}
-
-.figure figcaption {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-/* Row layout: images side-by-side with wrapping on small screens */
-.img-row {
-  display: flex;
-  gap: 0.75rem;         /* space between images */
-  flex-wrap: wrap;      /* wrap when screen is narrow */
-  align-items: flex-start;
-}
-
-/* Uniform image tiles */
-.img-row img,
-.img-row .img {         /* supports Markdown images inside the div */
-  width: 300px;         /* set your desired width */
-  height: 200px;        /* set your desired height */
-  object-fit: cover;    /* crops without distortion */
+  width: 100%;            /* fill the column width */
+  height: 220px;          /* fixed height for uniform tiles */
+  object-fit: cover;      /* crop without distortion */
   border: 1px solid #ddd;
   border-radius: 6px;
   background: #f8f8f8;
 }
 
-/* Optional: center the row in the page */
-.img-row.center {
-  justify-content: center;
+/* Caption styling */
+.figure figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;     /* center captions under images */
 }
 
 /* Layout container */
