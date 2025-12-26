@@ -51,7 +51,8 @@
 
 /* Layout container */
 .container {
-  max-width: 1800px;
+  // max-width: 1800px;
+  width: 100%;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -126,6 +127,7 @@
   font-size: 0.9rem;
   color: #1F1F1F;
   background-color: #F5F5F5;
+  padding: 2rem;  
   width: 100%;
 }
 
