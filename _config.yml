@@ -1,9 +1,4 @@
 theme: jekyll-theme-minimal
 
-title: Lydia Seils - Selected Works
-description: >
-  Portfolio of contemporary architectural projects and computational design tools.
-
-
 # Optional: use pretty permalinks for clean URLs
 permalink: /:title/
