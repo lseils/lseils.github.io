@@ -1,8 +1,13 @@
 
-# Lydia Seils - Selected Works
+---
+layout: default
+title: Home
+---
 
-Welcome! I am currently pursuing an **M.S. in Architecture** with a designation in **Computational Design** at Georgia Institute of Technology.  
-Previously, I earned my **B.Arch** from Rensselaer Polytechnic Institute, where I developed strong architectural design skills and discovered my passion for computational design.
+# Lydia Seils — Selected Works
+
+I am currently pursuing an **M.S. in Architecture** (Computational Design) at Georgia Institute of Technology.  
+Previously, I earned my **B.Arch** from Rensselaer Polytechnic Institute, developing strong architectural design skills and a passion for computational design.
 
 This portfolio showcases:
 - Contemporary architectural projects
@@ -13,3 +18,6 @@ This portfolio showcases:
 **Contact Information**  
 📧 Email: [Lydiamseils@gmail.com](mailto:Lydiamseils@gmail.com)  
 📞 Phone: 315-651-2311  
+
+> Use the tabs above to explore **Architecture Projects** and **Computation Projects**.
+
