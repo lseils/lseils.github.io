@@ -4,6 +4,10 @@ layout: default
 title: Home
 ---
 
+
+
+
+
 # Lydia Seils — Selected Works
 
 I am currently pursuing an **M.S. in Architecture** (Computational Design) at Georgia Institute of Technology.  
@@ -19,5 +23,5 @@ This portfolio showcases:
 📧 Email: [Lydiamseils@gmail.com](mailto:Lydiamseils@gmail.com)  
 📞 Phone: 315-651-2311  
 
-> Use the tabs above to explore **Architecture Projects** and **Computation Projects**.
+
 
