@@ -1,4 +1,4 @@
-
+theme: jekyll-theme-minimal
 title: Lydia Seils - Selected Works
 description: >
   Hi, I am currently a M.S. Architecture student at Georgia Institute of Technology.
@@ -6,5 +6,5 @@ description: >
   In addition to architecture expertise, I have discovered computational interests and coding skills.
   My designation in my grad program is in computational design, where I explore how design tools affect architectural processes.
   Work shown in this collection includes contemporary architectural projects as well as design aids I have created.
-theme: jekyll-theme-minimal
+
 
