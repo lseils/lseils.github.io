@@ -38,7 +38,14 @@ grand entrance, facing the Hudson River, offers a welcoming gesture to the
 city from the water, reinforcing Troy’s connection to its historic riverfront.*
 
 ![Project 1 image](assets/img/arch/Courtyard.png)
-![Courtyard](assets/img/arch/Courtyard.png){:width="300}![Courtyard](assets/img/arch/Courtyard.png){:width="300}
+
+<div class="img-row">
+  <img src="assets/img/arch/Courtyard.png" alt="Project 1 image" width="300">
+  <img src="assets/img/arch/Courtyard.png" alt="Project 1 image" width="300">
+  <img src="assets/img/arch/Courtyard.png" alt="Project 1 image" width="300">
+  <img src="assets/img/arch/Courtyard.png" alt="Project 1 image" width="300">
+</div>
+
 
 
 ---
