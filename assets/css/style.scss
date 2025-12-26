@@ -1,10 +1,59 @@
-
 ---
 # Ensure Jekyll processes this file
 ---
 
 /* Import Minimal theme base styles */
 @import "jekyll-theme-minimal";
+
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.figure img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.figure figcaption {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Row layout: images side-by-side with wrapping on small screens */
+.img-row {
+  display: flex;
+  gap: 0.75rem;         /* space between images */
+  flex-wrap: wrap;      /* wrap when screen is narrow */
+  align-items: flex-start;
+}
+
+/* Uniform image tiles */
+.img-row img,
+.img-row .img {         /* supports Markdown images inside the div */
+  width: 300px;         /* set your desired width */
+  height: 200px;        /* set your desired height */
+  object-fit: cover;    /* crops without distortion */
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f8f8f8;
+}
+
+/* Optional: center the row in the page */
+.img-row.center {
+  justify-content: center;
+}
 
 /* Layout container */
 .container {
