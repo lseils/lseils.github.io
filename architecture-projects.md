@@ -40,11 +40,24 @@ city from the water, reinforcing Troy’s connection to its historic riverfront.
 ![Project 1 image](assets/img/arch/Courtyard.png)
 
 
-<div class="img-row">
-  <img src="assets/img/arch/Courtyard.png" alt="Project 1 image">
-  <img src="assets/img/arch/Courtyard.png" alt="Project 1 image">
-  <img src="assets/img/arch/Courtyard.png" alt="Project 1 image">
-  <img src="assets/img/arch/Courtyard.png" alt="Project 1 image">
+
+<div class="img-grid">
+  <figure class="figure">
+    <img src="assets/img/arch/Courtyard.png" alt="Courtyard perspective">
+    <figcaption>Courtyard perspective</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="assets/img/arch/Courtyard.png" alt="Material study">
+    <figcaption>Material study</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="assets/img/arch/Courtyard.png" alt="Circulation diagram">
+    <figcaption>Circulation diagram</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="assets/img/arch/Courtyard.png" alt="Facade analysis">
+    <figcaption>Facade analysis</figcaption>
+  </figure>
 </div>
 
 
