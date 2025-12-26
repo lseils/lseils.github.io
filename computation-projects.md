@@ -1,4 +1,5 @@
-# Computation Projects
+# Lydia Seils — Computation Projects
+
 
 Explorations in computational design, tool-making, and workflows.
 
