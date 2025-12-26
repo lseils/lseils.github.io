@@ -33,8 +33,8 @@ Troy’s fabric, the city hall creates pathways that connect to these features. 
 grand entrance, facing the Hudson River, offers a welcoming gesture to the
 city from the water, reinforcing Troy’s connection to its historic riverfront.*
 
-![Project 1 image](assets/img/arch/Courtyard.png)
 
+![Courtyard](assets/img/arch/Courtyard.png){:width="200"}
 
 
 <div class="img-grid">
