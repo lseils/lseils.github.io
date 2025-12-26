@@ -1,10 +1,3 @@
-
----
-layout: default
-title: Computation Projects
-permalink: /computation-projects/
----
-
 # Computation Projects
 
 Explorations in computational design, tool-making, and workflows.
