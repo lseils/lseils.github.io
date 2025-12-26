@@ -1,4 +1,4 @@
-# Lydia Seils — Selected Works
+# Lydia Seils — Home
 
 
 
