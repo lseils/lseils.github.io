@@ -21,20 +21,20 @@
   border: 1px solid #ddd;
   border-bottom: none;
   border-radius: 6px 6px 0 0;
-  background: #f8f8f8;
+  background: #E0E0E0;
   color: #333;
   font-weight: 600;
 }
 
 .tab:hover {
-  background: #f0f0f0;
+  background: #B5B5B5;
 }
 
 /* Optional: highlight the current page’s tab */
 .tabs .tab[aria-current="page"] {
-  background: white;
-  border-color: #bbb;
-  color: #111;
+  background: #5F5F5F;
+  border-color: #1F1F1F;
+  color: #A05C7B;
 }
 
 /* Layout niceties */
