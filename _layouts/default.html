@@ -5,17 +5,22 @@
   <meta charset="utf-8">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- comment -%}
-  The Minimal theme provides a built-in stylesheet; we’ll also load our custom CSS.
-  {%- endcomment -%}
+  <!-- Minimal theme CSS is included automatically; we add our custom stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <div class="container">
     <header class="site-header">
-      <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <!-- Flex row: title on the left, nav tabs on the right -->
+      <div class="site-header-row">
+        <h1 class="site-title">
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </h1>
+        {% include nav.html %}
+      </div>
+      {% if site.description %}
       <p class="site-description">{{ site.description }}</p>
-      {% include nav.html %}
+      {% endif %}
     </header>
 
     <main class="content">
@@ -23,10 +28,9 @@
     </main>
 
     <footer class="site-footer">
-      <p>© {{ site.time | date: "%Y" }} Lydia Seils — M.S. Architecture, Computational Design (ongoing), Georgia Institute of Technology</p>
+      <p>© {{ site.time | date: "%Y" }} Lydia Seils — M.S. Architecture (Computational Design), Georgia Institute of Technology</p>
       <p><a href="mailto:Lydiamseils@gmail.com">Lydiamseils@gmail.com</a> • 315.651.2311</p>
     </footer>
   </div>
 </body>
 </html>
-``
