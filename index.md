@@ -1,12 +1,9 @@
-# Lydia Seils — Home
+
 
 
 
 ![Courtyard](assets/img/home/Headshot-BlackWhite.jpg){:width="200"}
 
-<div class="img-row">
-  ![Courtyard](assets/img/home/Headshot-BlackWhite.jpg){:width="300"}
-</div>
 
 
 I am currently pursuing an **M.S. in Architecture** (Computational Design) at Georgia Institute of Technology. 
