@@ -5,6 +5,16 @@
 /* Import Minimal theme base styles */
 @import "jekyll-theme-minimal";
 
+/* Color Key:
+  111111 = Onyx
+  1F1F1F = Carbon Black
+  5F5F5F = Charcoal
+  8A8A8A = Grey Olive
+  B5B5B5 = Silver
+  E0E0E0 = Alabaster Grey
+  99A88A = Muted Teal
+  7B8D68 = Dusty Olive */
+  
 
 /* Grid container */
 .img-grid {
@@ -81,21 +91,22 @@
   padding: 0.4rem 0.7rem;
   border: 1px solid #ddd;
   border-radius: 6px;
-  background: #f8f8f8;
-  color: #046E8F; //changed to blue
+  background: #B5B5B5;
+  color: #5F5F5F; //changed to blue
   font-weight: 600;
   white-space: nowrap;
 }
 
 .tab:hover {
-  background: #f0f0f0;
+  background: #8A8A8A;
+  color: #99A88A;
 }
 
 /* Active tab */
 .tab[aria-current="page"] {
-  background: #fff;
+  background: #5F5F5F;
   border-color: #E0E0E0;
-  color: #111;
+  color: #7B8D68;
 }
 
 /* Optional: description styling below header row */
@@ -108,7 +119,7 @@
 .site-footer {
   margin-top: 3rem;
   font-size: 0.9rem;
-  color: #666;
+  color: #1F1F1F;
   background-color: #E0E0E0;
 }
 
