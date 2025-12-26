@@ -1,47 +1,31 @@
 
 ---
-# Front matter ensures Jekyll processes this file
+# Ensure Jekyll processes this file
 ---
 
-/* Import the Minimal theme base styles */
+/* Import Minimal theme base styles */
 @import "jekyll-theme-minimal";
 
-/* Custom tab navigation */
-.tabs {
-  display: flex;
-  gap: 1rem;
-  margin: 1rem 0 2rem;
-  border-bottom: 1px solid #1F1F1F;
-  padding-bottom: 0.5rem;
-}
-
-.tab {
-  text-decoration: none;
-  padding: 0.5rem 0.75rem;
-  border: 1px solid #ddd;
-  border-bottom: none;
-  border-radius: 6px 6px 0 0;
-  background: #E0E0E0;
-  color: #333;
-  font-weight: 600;
-}
-
-.tab:hover {
-  background: #B5B5B5;
-}
-
-/* Optional: highlight the current page’s tab */
-.tabs .tab[aria-current="page"] {
-  background: #5F5F5F;
-  border-color: #1F1F1F;
-  color: #A05C7B;
-}
-
-/* Layout niceties */
+/* Layout container */
 .container {
-  max-width: 820px;
+  max-width: 880px;
   margin: 0 auto;
   padding: 1rem;
+}
+
+/* Header row: title + nav inline */
+.site-header-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between; /* title left, tabs right */
+  flex-wrap: wrap; /* wrap on small screens */
+  margin-bottom: 0.5rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 .site-title a {
@@ -49,9 +33,44 @@
   color: inherit;
 }
 
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: none; /* we’re putting them in the header */
+}
+
+.tab {
+  text-decoration: none;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f8f8f8;
+  color: #333;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tab:hover {
+  background: #f0f0f0;
+}
+
+/* Active tab */
+.tab[aria-current="page"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #111;
+}
+
+/* Optional: description styling below header row */
+.site-description {
+  margin: 0.25rem 0 1rem;
+  color: #666;
+}
+
+/* Footer polish */
 .site-footer {
   margin-top: 3rem;
   font-size: 0.9rem;
   color: #666;
 }
-``
