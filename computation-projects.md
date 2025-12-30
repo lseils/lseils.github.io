@@ -3,12 +3,23 @@ layout: default
 title: Computation Projects
 permalink: /computation-projects/
 ---
+
+
+<style>
+.page-break {
+  height: 4px;
+  background: linear-gradient(to right, #ccc, #999);
+  margin: 2rem 0;
+}
+</style>
+
+
 ## Contents
 ![Courtyard](assets/img/arch/Courtyard.png){:width="200"} ![Courtyard](assets/img/arch/Ground-test.jpg){:width="200"} 
 ![Courtyard](assets/img/arch/EXTREND2.jpg){:width="200"} ![Courtyard](assets/img/arch/finalIndoorRender.9.26.jpg){:width="200"}
 ![Courtyard](assets/img/arch/AD3-rerender3--.png){:width="200"} ![Courtyard](assets/img/arch/2021-04-19-final.png){:width="200"}
 
-
+<div class="page-break"></div>
 ---
 ## Spatial Grammars for Mass-Housing Mediation
 **City Hall**
