@@ -92,3 +92,83 @@ families, and after school programs to help students reach their full potential.
 
 ![Project 2 image](assets/img/arch/AerialNightRender.jpg)
 ![Project 2 image](assets/img/arch/project2.jpg)
+
+---
+## Comprehensive Studio 1
+**Library**
+
+*Professor: Svedburg, Per. S**
+*Location: New York, NY*
+
+*The site is located in the heart of Chelsea. Chelsea has a lot of art gallaries and
+is the home for The Highline, an elevated park that spans part of Manhatten.
+The library sits on 10th Ave. and 27th St. North. It acts as a connection from
+the street to The Highline while being a part of the community. The site spans
+over 2 lots of land and part of it slides under The Higline.
+There is no doubt that The Highline is one of the most important parts to the
+site. The library has direct access to The Highline via the second floor. The
+building connects the street to The Highline, internally, with a staircase that
+also acts as seating. As you go up in the building, the staircases land you
+infront of windows looking down to The Highline.  
+In this project, NYC codes and standards were used. There are various zoning
+codes that were followed in order to simulate a more real life project. Structure,
+program, and occupancy were just a few important details what were thor-
+oughly thought out.*
+
+
+![Courtyard](assets/img/arch/Courtyard.png){:width="200"}
+
+---
+## Comprehensive Studio 2
+**Library**
+
+*Professor: Combs, Lonn*
+*Location: New York, NY*
+
+*The site is located in the heart of Chelsea. Chelsea has a lot of art gallaries
+and is the home for The Highline, an elevated park that spans part of
+Manhatten. This library acts as a connection from the street to The Highline
+while being a community node.  
+The library is made up of two different sections. The lower half acts as a public
+area that is shown to be more open via the atrium and facade rythems. This
+free flowing space acts as a connection to the com nity where people can
+socialize. The upper half of the building is quieter and compact. This allows
+library goes to read or study in the library without being as distracted by the
+travelers in the lower part of the building. This library gets to serve all kinds of
+people and preferences of the community.  
+This library is a continuation and re-vamp of the library in Comprehensive
+Studio 1. It takes the original library but improves on the original ideas
+while going into more depth of the construction, materials, program, and
+enviornmental qualities.*  
+
+![Courtyard](assets/img/arch/Courtyard.png){:width="200"}
+
+---
+## Benningtion Museum
+**Historical Museum**
+
+*Professor: Erel, Yael*
+*Location: Bennington, VT*
+
+*The Bennington Museum is located in Vermont and it sits on a 10-acre
+site. The Bennington Museum connects the Town of Benningiton and
+Old Bennington. The muesum, founded in 1852, is essential to the local
+community, holding collections, and providing public spaces. The muesum
+holds a wide variety of collections, some being historic relics and interesting
+art. The museum has seen addition on top of addition. It is made up of many
+different kinds of exhibits that all have their own feel to them. There are a lot of
+inconsistencies that came along because of all of the additions.  
+This new addition played off of the inconsistencies. The different shaped brick
+stones take inspiration from the original museum. The masonry is modernized
+but also exhibits the idea of the form inconsistencies of the existing musuem.
+There is also a play between view vs. lighting. The small windows in the
+eroded part of the addition can only act as lighting. However, the large end
+windows act as specific views. There is a cafe that is central to this addition. It
+is in a location that is accessible at the beginning or end of your tour.*  
+
+![Courtyard](assets/img/arch/Courtyard.png){:width="200"}
+
+---
+
+
+
