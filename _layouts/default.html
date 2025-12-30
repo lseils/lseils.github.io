@@ -7,21 +7,23 @@
   <!-- Minimal theme CSS is included automatically; we add our custom stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
+  
 <body>
-  <div class="container">
-    <header class="site-header">
-      <!-- Flex row: title on the left, nav tabs on the right -->
-      <div class="site-header-row">
-        <h1 class="site-title">
-          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        </h1>
-        {% include nav.html %}
-      </div>
-      {% if site.description %}
+  <!-- Full-width header -->
+  <header class="site-header">
+    <div class="site-header-row">
+      <h1 class="site-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </h1>
+      {% include nav.html %}
+    </div>
+    {% if site.description %}
       <p class="site-description">{{ site.description }}</p>
-      {% endif %}
-    </header>
+    {% endif %}
+  </header>
 
+  <!-- Centered content container (max-width) -->
+  <div class="container">
     <main class="content">
       {{ content }}
     </main>
