@@ -14,14 +14,14 @@ design tools I have created.
 
 
 ---
-#Education
+## Education
 **Rensselaer Polytechnic Institute - B.Arch | Troy, NY**  
 August 2020 - May 2025  
 
 **Georgia Institute of Technology - M.S. Arch (Computational Design) | Atlanta, GA**  
 August 2025 - Present
 
-#Internships
+## Internships
 **The Chicago Department of Planning and Development | Chicago, IL**
 June 2023 - August 2023
 -Created digital models for record, massing models for RFQs, and informative graphics and drawings
@@ -32,21 +32,21 @@ May 2024 - August 2024
 May 2025 - August 2025
 -Dynamo scripts for automation, drawing sets, 3D modeling, and Conditions Survey
 
-#Projects
+## Projects
 **Automatic Fire Stair Tool**
 -Python script to generate to building code re stairs, based off occupancy type and room outlines
 **PlantCraft**
 -Minecraft datapack that builds user-specied rooms and simulates VOCs in player’s environment
 
-#Technical Skills
+## Technical Skills
 **Design:** Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Lazer Cutting, 3D-printing  
 **Programing:** Python, Java  
 
-#Awards
+## Awards
 **Honors Review - Architecture Design Studio**
 Spring 2021
 
-#Reference
+## Reference
 **Dennis Shelden**
 Director, CASE, Associate Professor
 sheldd@rpi.edu
@@ -59,3 +59,4 @@ sheldd@rpi.edu
 
 
 
+ 
