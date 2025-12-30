@@ -17,6 +17,38 @@
   7B8D68 = Dusty Olive */
   
 
+
+/* Make the page start from the very top-left corner */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Full-bleed header background */
+.site-header {
+  background-color: #F5F5F5;   /* your desired color */
+  width: 100%;
+  padding: 0;                  /* we’ll do padding inside the row */
+  border-bottom: 1px solid #ddd; /* optional divider */
+}
+
+
+/* Make the row inside the header stretch edge-to-edge */
+.site-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  /* Make the background and padding visible across the full header */
+  background-color: transparent;  /* background already on .site-header */
+  padding: 1rem 1.25rem;          /* inner spacing */
+  margin: 0;                      /* no margins that cause gaps */
+  width: 100%;
+  box-sizing: border-box;         /* include padding in width calculation */
+}
+
 /* Grid container */
 .img-grid {
   display: grid;
@@ -57,19 +89,6 @@
   padding: 0rem;
 }
 
-/* Header row: title + nav inline */
-.site-header-row {
-  display: flex;
-  align-items: center;
-  gap: 0rem;
-  justify-content: space-between; /* title left, tabs right */
-  flex-wrap: wrap; /* wrap on small screens */
-  margin-bottom: 0rem;
-  background-color: #F5F5F5; /* White background */
-  padding: 1rem;            /* Optional: adds space inside header */
-  width: 100%;
-
-}
 
 .site-title {
   margin: 0;
