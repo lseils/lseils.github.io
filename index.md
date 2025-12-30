@@ -34,7 +34,7 @@ May 2025 - August 2025
 
 ## Projects
 **Automatic Fire Stair Tool**
--Python script to generate to building code re stairs, based off occupancy type and room outlines
+-Python script to generate to building code re stairs, based off occupancy type and room outlines  
 **PlantCraft**
 -Minecraft datapack that builds user-specied rooms and simulates VOCs in player’s environment
 
