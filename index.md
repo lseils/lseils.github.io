@@ -1,19 +1,24 @@
+<style>
+.page-break {
+  height: 4px;
+  background: linear-gradient(to right, #ccc, #999);
+  margin: 2rem 0;
+}
+</style>
 
 
 
 
 ![Courtyard](assets/img/home/Headshot-BlackWhite.jpg){:width="200"}
 
-
-
-I am currently pursuing an **M.S. in Architecture** (Computational Design) at Georgia Institute of Technology.  
+*I am currently pursuing an **M.S. in Architecture** (Computational Design) at Georgia Institute of Technology.  
 Previously, I earned my **B.Arch** from Rensselaer Polytechnic Institute, developing strong architectural design  
 skills and a passion for computational design. This collection includes contemporary architectural projects and  
-design tools I have created. 
+design tools I have created.*  
 
 
 
----
+<div class="page-break"></div>
 ## Education
 **Rensselaer Polytechnic Institute - B.Arch | Troy, NY**  
 August 2020 - May 2025  
