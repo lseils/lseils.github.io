@@ -5,6 +5,14 @@ permalink: /architecture-projects/
 ---
 
 
+<style>
+.page-break {
+  height: 4px;
+  background: linear-gradient(to right, #ccc, #999);
+  margin: 2rem 0;
+}
+</style>
+
 
   
 ## Contents
@@ -13,7 +21,7 @@ permalink: /architecture-projects/
 ![Courtyard](assets/img/arch/AD3-rerender3--.png){:width="200"} ![Courtyard](assets/img/arch/2021-04-19-final.png){:width="200"}
 
 
----
+<div class="page-break"></div>
 ## Civic Unity
 **City Hall**
 
