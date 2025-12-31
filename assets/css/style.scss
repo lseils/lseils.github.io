@@ -71,9 +71,9 @@ html, body {
   width: 100%;            /* fill the column width */
   height: 220px;          /* fixed height for uniform tiles */
   object-fit: cover;      /* crop without distortion */
-  // border: 1px solid #1F1F1F;
-  // border-radius: 6px;
-  // background: #F5F5F5;
+  /* border: 1px solid #1F1F1F; */
+  /* border-radius: 6px */
+  /* background: #F5F5F5; */
 }
 
 /* Caption styling */
@@ -85,7 +85,7 @@ html, body {
 
 /* Layout container */
 .container {
-  // max-width: 1800px;
+  /* max-width: 1800px; */
   width: 100%;
   margin: 1 auto;
   padding: 0rem;
@@ -115,7 +115,7 @@ html, body {
   border: none; //original 1px solid #1F1F1F
   border-radius: 6px; //original was 6px
   background: #E0E0E0;
-  color: #5F5F5F; //
+  color: #5F5F5F; 
   font-weight: 600;
   white-space: nowrap;
 }
