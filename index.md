@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Computation Projects
-permalink: /computation-projects/
+title: Home
+permalink: /index/
 ---
 
 <style>
