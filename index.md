@@ -1,3 +1,9 @@
+---
+layout: default
+title: Computation Projects
+permalink: /computation-projects/
+---
+
 <style>
 .page-break {
   height: 4px;
