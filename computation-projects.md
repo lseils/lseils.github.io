@@ -14,15 +14,6 @@ permalink: /computation-projects/
 </style>
 
 
-<style>
-  .half-page {
-    width: 50%;
-    max-width: 48rem; /* optional cap for large screens */
-    margin: 0 auto;   /* center horizontally */
-       line-height: 1.6; /* improve readability */
-  }
-
-
 
 ## Contents
 ![Courtyard](assets/img/arch/Courtyard.png){:width="200"} ![Courtyard](assets/img/arch/Ground-test.jpg){:width="200"} 
@@ -31,7 +22,7 @@ permalink: /computation-projects/
 
 <div class="page-break"></div>
 ---
-<div class="half-page">
+
   ## Spatial Grammars for Mass-Housing Mediation
   **City Hall**
   
@@ -58,7 +49,7 @@ permalink: /computation-projects/
   Troy’s fabric, the city hall creates pathways that connect to these features. The
   grand entrance, facing the Hudson River, offers a welcoming gesture to the
   city from the water, reinforcing Troy’s connection to its historic riverfront.*
-</div>
+
 
 
 ![Courtyard](assets/img/arch/Courtyard.png){:width="200"}
