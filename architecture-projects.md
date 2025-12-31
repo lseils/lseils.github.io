@@ -3,6 +3,35 @@ layout: default
 title: Architecture Projects
 permalink: /architecture-projects/
 ---
+
+<div class="img-grid">
+  <figure class="figure">
+    <img src="assets/img/arch/Courtyard.png" alt="Courtyard perspective">
+    <figcaption>Courtyard perspective</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="assets/img/arch/A3-AxonModelPhoto.jpg" alt="Material study">
+    <figcaption>Material study</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="assets/img/arch/Courtyard.png" alt="Circulation diagram">
+    <figcaption>Circulation diagram</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="assets/img/arch/Courtyard.png" alt="Facade analysis">
+    <figcaption>Facade analysis</figcaption>
+  </figure>
+</div>
+
+<style>
+  .half-page {
+    width: 50%;
+    max-width: 48rem; /* optional cap for large screens */
+    margin: 0 auto;   /* center horizontally */
+       line-height: 1.6; /* improve readability */
+  }
+
+  
 ## Contents
 ![Courtyard](assets/img/arch/Courtyard.png){:width="200"} ![Courtyard](assets/img/arch/Ground-test.jpg){:width="200"} 
 ![Courtyard](assets/img/arch/EXTREND2.jpg){:width="200"} ![Courtyard](assets/img/arch/finalIndoorRender.9.26.jpg){:width="200"}
@@ -10,6 +39,7 @@ permalink: /architecture-projects/
 
 
 ---
+<div class="half-page">
 ## Civic Unity
 **City Hall**
 
@@ -37,29 +67,12 @@ near the waterfront and the popular farmers market, two essential parts of
 Troy’s fabric, the city hall creates pathways that connect to these features. The
 grand entrance, facing the Hudson River, offers a welcoming gesture to the
 city from the water, reinforcing Troy’s connection to its historic riverfront.*
+</div>
 
 
 ![Courtyard](assets/img/arch/Courtyard.png){:width="200"}
 
 
-<div class="img-grid">
-  <figure class="figure">
-    <img src="assets/img/arch/Courtyard.png" alt="Courtyard perspective">
-    <figcaption>Courtyard perspective</figcaption>
-  </figure>
-  <figure class="figure">
-    <img src="assets/img/arch/A3-AxonModelPhoto.jpg" alt="Material study">
-    <figcaption>Material study</figcaption>
-  </figure>
-  <figure class="figure">
-    <img src="assets/img/arch/Courtyard.png" alt="Circulation diagram">
-    <figcaption>Circulation diagram</figcaption>
-  </figure>
-  <figure class="figure">
-    <img src="assets/img/arch/Courtyard.png" alt="Facade analysis">
-    <figcaption>Facade analysis</figcaption>
-  </figure>
-</div>
 
 
 
