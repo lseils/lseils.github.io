@@ -28,11 +28,12 @@ html, body {
 /* Full-bleed header background */
 .site-header {
   background-color: #F5F5F5;   /* your desired color */
-  width: 100%;
-  padding: 0;                  /* we’ll do padding inside the row */
-  border-bottom: 1px solid #ddd; /* optional divider */
-  margin-top: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  border-bottom: 1px solid #ddd;
 }
+
 
 
 /* Make the row inside the header stretch edge-to-edge */
