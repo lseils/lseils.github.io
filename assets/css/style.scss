@@ -139,7 +139,8 @@ html, body {
 
 .content {
   padding-top: 6.5rem; /* Optional if you only want margin from header */
-  margin: 0;           
+  margin: 0;    
+  padding-bottom: 6.5;
   padding-left: 1rem;   /* add inner breathing room instead of outer margins */
   padding-right: 1rem;
 
