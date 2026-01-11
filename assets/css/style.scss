@@ -41,7 +41,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0rem;
 
   /* Make the background and padding visible across the full header */
   background-color: transparent;  /* background already on .site-header */
@@ -149,7 +149,7 @@ html, body {
   font-size: 0.9rem;
   color: #1F1F1F;
   background-color: #F5F5F5;
-  padding: 0rem;  
+  padding: -1rem;  
   width: 100%;
   margin: 1rem;
 }
