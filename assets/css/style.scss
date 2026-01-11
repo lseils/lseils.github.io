@@ -153,7 +153,10 @@ html, body {
   background-color: #F5F5F5;
   border-top: 1px solid #ddd;
   width: 100%;
-  margin: 0;                 /* remove the 1rem margin */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 1rem 1.25rem;     /* use valid positive padding */
   box-sizing: border-box;
 }
