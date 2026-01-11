@@ -1,8 +1,4 @@
----
-layout: default
-title: Home
-permalink: /index/
----
+
 
 <style>
 .page-break {
