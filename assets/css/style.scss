@@ -28,7 +28,7 @@ html, body {
 /* Full-bleed header background */
 .site-header {
   background-color: #F5F5F5;   /* your desired color */
-  width: 100vw;
+  width: 100%;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   border-bottom: 1px solid #ddd;
@@ -139,19 +139,23 @@ html, body {
 
 .content {
   padding-top: 6.5rem; /* Optional if you only want margin from header */
-  margin: 4rem;
+  margin: 0;           
+  padding-left: 1rem;   /* add inner breathing room instead of outer margins */
+  padding-right: 1rem;
+
 }
 
 
 /* Footer polish */
 .site-footer {
-  margin-top: 0rem;
   font-size: 0.9rem;
   color: #1F1F1F;
   background-color: #F5F5F5;
-  padding: -4rem;  
+  border-top: 1px solid #ddd;
   width: 100%;
-  margin: 1rem;
+  margin: 0;                 /* remove the 1rem margin */
+  padding: 1rem 1.25rem;     /* use valid positive padding */
+  box-sizing: border-box;
 }
 
 
