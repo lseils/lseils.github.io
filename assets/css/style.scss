@@ -56,11 +56,44 @@ body {
   box-sizing: border-box;         /* include padding in width calculation */
 }
 
+/* Grid container */
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 1rem; /* space between items */
+  margin: 1rem 0;
+}
+
+/* Each figure block */
+.figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem; /* space between image and caption */
+}
+
+/* Image styling */
+.figure img {
+  width: 100%;            /* fill the column width */
+  height: 220px;          /* fixed height for uniform tiles */
+  object-fit: cover;      /* crop without distortion */
+  /* border: 1px solid #1F1F1F; */
+  /* border-radius: 6px */
+  /* background: #F5F5F5; */
+}
+
+/* Caption styling */
+.figure figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;     /* center captions under images */
+}
+
 /* Layout container */
 .container {
-  flex: 1;
-  display:flex;
-  flex-direction: column;
+  /* max-width: 1800px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
 }
 
 
@@ -110,7 +143,12 @@ body {
 }
 
 .content {
-  flex: 1;
+  padding-top: 6.5rem; /* Optional if you only want margin from header */
+  margin: 0;    
+  padding-bottom: 6.5rem;
+  padding-left: 1rem;   /* add inner breathing room instead of outer margins */
+  padding-right: 1rem;
+
 }
 
 
