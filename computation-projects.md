@@ -66,17 +66,17 @@ permalink: /computation-projects/
     </div>
 
     <!-- 1. PHOTO 3 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/am/O2.png' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 1. PHOTO 4 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/am/O3.png' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 1. PHOTO 5 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/am/O4.png' | relative_url }}" alt="Lydia Seils">
     </div>
 
@@ -111,21 +111,21 @@ permalink: /computation-projects/
 
     <!-- 2. PHOTO 2 -->
     <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/sg/P1.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/sg/Output.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 3 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/sg/P2.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 4 -->
-    <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/comp/sg/P2.jpg' | relative_url }}" alt="Lydia Seils">
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/P3.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 5 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/sg/P4.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
@@ -138,6 +138,9 @@ permalink: /computation-projects/
     <!-- PROJECT 3 -->
     <div class="box span-12">
         <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Automatic Egress</h2>
+
+        <div class="project-split">
+            <div style="font-size: 0.95rem; line-height: 1.8;">
                 <div style="margin-bottom: 1rem;">
                     <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
                     <strong>Sheward, Hugo</strong>
