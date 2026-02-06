@@ -43,6 +43,7 @@ permalink: /computation-projects/
                     <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
                     <strong>Sheldon, Dennis</strong>
                 </div>
+            </div>
 
             <!-- Right Column: The Story (Takes up 2/3 width) -->
             <div>
