@@ -1,176 +1,105 @@
 ---
-# Ensure Jekyll processes this file
 ---
 
-/* Import Minimal theme base styles */
-@import "jekyll-theme-minimal";
+/* IMPORTS & VARIABLES */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Space+Grotesk:wght@300;400;600&display=swap');
 
-/* Color Key:
-  111111 = Onyx
-  1F1F1F = Carbon Black
-  5F5F5F = Charcoal
-  8A8A8A = Grey Olive
-  B5B5B5 = Silver
-  E0E0E0 = Alabaster Grey
-  F5F5F5 = White Smoke
-  99A88A = Muted Teal
-  7B8D68 = Dusty Olive */
-  
-
-
-/* Make the page start from the very top-left corner */
-html, body {
-  margin: 0rem;
-  padding: 0rem;
+:root {
+    --bg-color: #121212;        /* Dark Charcoal */
+    --card-bg: #1E1E1E;         /* Slightly lighter dark */
+    --accent-green: #2B4239;    /* The Deep Green */
+    --text-main: #EAEAEA;       /* Off-White */
+    --text-muted: #AFAFAF;      /* Grey */
+    --border-color: #333333;
+    --highlight: #8c9657;       /* Muted Lime */
 }
 
+/* GLOBAL RESET */
+* { box-sizing: border-box; }
 body {
-  display: flex;
-  flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+}
+a { text-decoration: none; color: inherit; transition: 0.3s; }
+img { max-width: 100%; display: block; }
+
+/* LAYOUT WRAPPER */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
-
-/* Full-bleed header background */
-.site-header {
-  background-color: #F5F5F5;   /* your desired color */
-  width: 100%;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  border-bottom: 1px solid #ddd;
+/* NAVIGATION (For the header/includes) */
+.site-nav {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
 }
 
-
-
-/* Make the row inside the header stretch edge-to-edge */
-.site-header-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0rem;
-
-  /* Make the background and padding visible across the full header */
-  background-color: transparent;  /* background already on .site-header */
-  padding: 1rem 1.25rem;          /* inner spacing */
-  margin: 0;                      /* no margins that cause gaps */
-  width: 100%;
-  box-sizing: border-box;         /* include padding in width calculation */
+.site-nav .tab {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: var(--text-muted);
 }
 
-/* Grid container */
-.img-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-  gap: 1rem; /* space between items */
-  margin: 1rem 0;
+.site-nav .tab:hover, .site-nav .tab[aria-current="page"] {
+    color: var(--highlight);
 }
 
-/* Each figure block */
-.figure {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem; /* space between image and caption */
+/* BENTO GRID (The Home Page Layout) */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 4rem;
 }
 
-/* Image styling */
-.figure img {
-  width: 100%;            /* fill the column width */
-  height: 220px;          /* fixed height for uniform tiles */
-  object-fit: cover;      /* crop without distortion */
-  /* border: 1px solid #1F1F1F; */
-  /* border-radius: 6px */
-  /* background: #F5F5F5; */
+.box {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    position: relative;
+    transition: transform 0.2s, border-color 0.2s;
 }
+.box:hover { border-color: var(--text-muted); }
 
-/* Caption styling */
-.figure figcaption {
-  font-size: 0.9rem;
-  color: #555;
-  text-align: center;     /* center captions under images */
-}
+/* GRID UTILITIES */
+.span-12 { grid-column: span 12; }
+.span-6  { grid-column: span 6; }
+.span-8  { grid-column: span 8; }
+.span-4  { grid-column: span 4; }
 
-/* Layout container */
-.container {
-  /* max-width: 1800px; */
-  width: 100%;
-  margin: 0 auto;
-  padding: 0rem;
-}
-
-
-.site-title {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.site-title a {
-  text-decoration: none;
-  color: #1F1F1F;
-}
-
-/* Tabs */
-.tabs {
-  display: flex;
-  gap: 0.5rem;
-  border-bottom: none; /* we’re putting them in the header */
-}
-
-.tab {
-  text-decoration: none;
-  padding: 0.4rem 0.7rem;
-  border: none; //original 1px solid #1F1F1F
-  border-radius: 6px; //original was 6px
-  background: #E0E0E0;
-  color: #5F5F5F; 
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.tab:hover {
-  background: #B5B5B5;
-  color: #1F1F1F;
-}
-
-/* Active tab */
-.tab[aria-current="page"] {
-  background: #7B8D68;
-  color: #A3B195;
-}
-
-/* Optional: description styling below header row */
-.site-description {
-  margin: 0.25rem 0 1rem;
-  color: #666;
-}
-
-.content {
-  padding-top: 6.5rem; /* Optional if you only want margin from header */
-  margin: 0;    
-  padding-bottom: 6.5rem;
-  padding-left: 1rem;   /* add inner breathing room instead of outer margins */
-  padding-right: 1rem;
-
-}
-
-
-/* Footer polish */
-.site-footer {
-  font-size: 0.9rem;
-  color: #1F1F1F;
-  background-color: #F5F5F5;
-  border-top: 1px solid #ddd;
-  width: 100%;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0rem 1.25rem;     /* use valid positive padding */
-  box-sizing: border-box;
-}
-
-
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .img-grid {
-    grid-template-columns: 1fr; /* single column on small screens */
-  }
+    .span-6, .span-8, .span-4 { grid-column: span 12; }
+    .site-nav { flex-direction: column; gap: 0.5rem; }
 }
 
+/* TYPOGRAPHY COMPONENTS */
+h1, h2, h3 { font-family: 'Oswald', sans-serif; margin: 0; }
+
+.header-hero {
+    background-color: var(--accent-green);
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-hero h1 { font-size: clamp(3rem, 6vw, 5rem); line-height: 0.9; text-transform: uppercase;}
+.subtitle { color: var(--text-muted); font-family: 'Space Grotesk', monospace; margin-top: 1rem;}
+
+.arrow-icon { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 1.5rem; }
+.box:hover .arrow-icon { color: var(--highlight); transform: translate(3px, -3px); }
+
+/* IMAGES */
+.photo-box { padding: 0; overflow: hidden; height: 100%; min-height: 300px; }
+.photo-box img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%); transition: 0.5s; }
+.photo-box:hover img { filter: grayscale(0%); }
