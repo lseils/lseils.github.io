@@ -105,31 +105,36 @@ permalink: /computation-projects/
 
 
     <!-- 2. PHOTO 1 -->
-    <div class="box span-6 photo-box">
+    <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/comp/sg/Psuedo_Code.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 2 -->
-    <div class="box span-6 photo-box">
+    <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/comp/sg/Output.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 3 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Shared_Space.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 4 -->
     <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/sg/P2.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 2. PHOTO 4 -->
+    <!-- 2. PHOTO 5 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/sg/P3.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 2. PHOTO 5 -->
+    <!-- 2. PHOTO 6 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/sg/P4.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 2. PHOTO 6 -->
+    <!-- 2. PHOTO 7 -->
     <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/sg/Render.png' | relative_url }}" alt="Lydia Seils">
     </div>
@@ -145,6 +150,7 @@ permalink: /computation-projects/
                     <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
                     <strong>Sheward, Hugo</strong>
                 </div>
+            </div>
 
             <!-- Right Column: The Story (Takes up 2/3 width) -->
             <div>
@@ -191,6 +197,7 @@ permalink: /computation-projects/
                     <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
                     <strong>Economou, Athanassios</strong>
                 </div>
+            </div>
 
             <!-- Right Column: The Story (Takes up 2/3 width) -->
             <div>
