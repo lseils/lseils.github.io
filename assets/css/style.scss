@@ -7,11 +7,11 @@
 :root {
     --bg-color: #121212;        /* Dark Charcoal */
     --card-bg: #1E1E1E;         /* Slightly lighter dark */
-    --accent-green: #2B4239;    /* The Deep Green */
+    --accent-green: #374932;    /* The Deep Green */
     --text-main: #EAEAEA;       /* Off-White */
     --text-muted: #AFAFAF;      /* Grey */
     --border-color: #333333;
-    --highlight: #8c9657;       /* Muted Lime */
+    --highlight: #526D4A;       /* Muted Lime */
 }
 
 /* GLOBAL RESET */
@@ -64,7 +64,7 @@ img { max-width: 100%; display: block; }
 
 .box {
     background: var(--card-bg);
-    border: 1px solid var(--border-color);
+    border: 2px solid var(--border-color);
     padding: 2rem;
     position: relative;
     transition: transform 0.2s, border-color 0.2s;
