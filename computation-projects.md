@@ -110,15 +110,10 @@ permalink: /computation-projects/
     </div>
 
     <!-- 2. PHOTO 2 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-8 photo-box">
         <img src="{{ '/assets/img/comp/sg/Output.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
-
-    <!-- 2. PHOTO 3 -->
-    <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/comp/sg/Shared_Space.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-
+    
     <!-- 2. PHOTO 4 -->
     <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/sg/P2.jpg' | relative_url }}" alt="Lydia Seils">
@@ -168,22 +163,22 @@ permalink: /computation-projects/
 
     <!-- 3. PHOTO 2 -->
     <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/fs/Plan.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/fs/B2-Plan.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 3. PHOTO 3 -->
     <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/fs/Stairs.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/fs/B2-Stairs.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 3. PHOTO 4 -->
     <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/fs/Egress.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/fs/B2-Egress.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 3. PHOTO 5 -->
     <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/comp/fs/Final_Output.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/fs/B2-FinalOutput.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
 
@@ -215,12 +210,12 @@ permalink: /computation-projects/
     </div>
 
     <!-- 4. PHOTO 2 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-8 photo-box">
         <img src="{{ '/assets/img/comp/sp/Layouts.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 3 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/sp/Roof_Iters.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
