@@ -12,8 +12,8 @@ permalink: /architecture-projects/
     gap: 2rem;
   }
 
-  /* Desktop (Computers): Split 1/3 and 2/3 */
-  @media (min-width: 768px) {
+  /* Desktop (Computers): Split 1/3 and 2/3 [min-width was 768px]*/
+  @media (min-width: 758px) {
     .project-split {
       grid-template-columns: 1fr 2fr; 
     }
@@ -71,23 +71,28 @@ permalink: /architecture-projects/
 
 
     <!-- 1. PHOTO 1 -->
-    <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/arch/AerialNightRender.jpg' | relative_url }}" alt="Lydia Seils">
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/arch/cu/Courtyard.png' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 1. PHOTO 2 -->
     <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/arch/Courtyard.png' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/cu/Plan_1.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 1. PHOTO 3 -->
     <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/arch/Courtyard.png' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/cu/Physical_Model.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 1. PHOTO 4 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/arch/cu/Day_Render.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 5 -->
     <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/arch/Courtyard.png' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/cu/Night_Render.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
 
@@ -95,9 +100,7 @@ permalink: /architecture-projects/
     <div class="box span-12">
         <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Folded Narratives</h2>
         
-        <!-- We use 'minmax' here so it stacks on mobile phones but sits side-by-side on computers -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
-            
+        <div class="project-split">
             <!-- Left Column: The Stats -->
             <div style="font-size: 0.95rem; line-height: 1.8;">
                 <div style="margin-bottom: 1rem;">
@@ -133,61 +136,122 @@ permalink: /architecture-projects/
     </div>
 
 
-    <!-- 1. PHOTO 1 -->
+    <!-- 2. PHOTO 1 -->
     <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/arch/AerialNightRender.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 1. PHOTO 2 -->
+    <!-- 2. PHOTO 2 -->
     <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/arch/project2.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 1. PHOTO 3 -->
+    <!-- 2. PHOTO 3 -->
     <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/arch/Courtyard.png' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 1. PHOTO 4 -->
+    <!-- 2. PHOTO 4 -->
     <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/arch/Courtyard.png' | relative_url }}" alt="Lydia Seils">
     </div>
 
 
-
-
-
-    <!-- 5. TIMELINE / RESUME -->
+    <!-- PROJECT 3 -->
     <div class="box span-12">
-        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Education & Experience</h2>
-        
-        <!-- Item 1 -->
-        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
-            <span style="font-family: monospace; color: var(--text-muted);">2025-Pres</span>
-            <div>
-                <strong>M.S. Arch (Computational Design)</strong><br>
-                <span style="color: var(--text-muted);">Georgia Institute of Technology</span>
-            </div>
-        </div>
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Chelsea Library</h2>
 
-        <!-- Item 2 -->
-        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
-            <span style="font-family: monospace; color: var(--text-muted);">2020-2025</span>
-            <div>
-                <strong>B.Arch</strong><br>
-                <span style="color: var(--text-muted);">Rensselaer Polytechnic Institute</span>
-            </div>
-        </div>
+        <div class="project-split">
+            <div style="font-size: 0.95rem; line-height: 1.8;">
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Typology</span>
+                    <strong>Library</strong>
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
+                    <strong>Combs, Lonn</strong>
+                </div>
 
-        <!-- Item 3 -->
-        <div style="display: grid; grid-template-columns: 150px 1fr;">
-            <span style="font-family: monospace; color: var(--text-muted);">2023</span>
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Location</span>
+                    <strong>New York, NY</strong>
+                </div>
+            </div>
+
+            <!-- Right Column: The Story (Takes up 2/3 width) -->
             <div>
-                <strong>Internship</strong><br>
-                <span style="color: var(--text-muted);">Chicago Dept. of Planning and Development</span>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
+                  The site is located in the heart of Chelsea. Chelsea has a lot of art gallaries and is the home for The Highline, an elevated park that spans part of Manhatten. The library sits on 10th Ave. and 27th St. North. It acts as a connection from the street to The Highline while being a part of the community. 
+
+                  The library is made up of two different sections. The lower half acts as a public area that is shown to be more open via the atrium and facade rythems. This free flowing space acts as a connection to the com nity where people can socialize. The upper half of the building is quieter and compact. This allows library goes to read or study in the library without being as distracted by the travelers in the lower part of the building. This library gets to serve all kinds of people and preferences of the community.
+                </p>
             </div>
         </div>
     </div>
+
+    <!-- 3. PHOTO 1 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/arch/Courtyard.png' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- PROJECT 4 -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Bennington Museum</h2>
+
+        <div class="project-split">
+            <div style="font-size: 0.95rem; line-height: 1.8;">
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Typology</span>
+                    <strong>Historical Museum</strong>
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
+                    <strong>Erel, Yael</strong>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Location</span>
+                    <strong>Bennington, VT</strong>
+                </div>
+            </div>
+
+            <!-- Right Column: The Story (Takes up 2/3 width) -->
+            <div>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
+                  The Bennington Museum is located in Vermont and it sits on a 10-acre site. The Bennington Museum connects the Town of Benningiton and Old Bennington. The muesum, founded in 1852, is essential to the local community, holding collections, and providing public spaces. The muesum holds a wide variety of collections, some being historic relics and interesting art. The museum has seen addition on top of addition. It is made up of many different kinds of exhibits that all have their own feel to them. There are a lot of inconsistencies that came along because of all of the additions. This new addition played off of the inconsistencies. The different shaped brick stones take inspiration from the original museum. The masonry is modernized but also exhibits the idea of the form inconsistencies of the existing musuem. There is also a play between view vs. lighting. The small windows in the eroded part of the addition can only act as lighting. However, the large end windows act as specific views. There is a cafe that is central to this addition. It is in a location that is accessible at the beginning or end of your tour.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 1. PHOTO 1 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/arch/cu/Courtyard.png' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 2 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/arch/cu/Plan_1.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 3 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/arch/cu/Physical_Model.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 4 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/arch/cu/Day_Render.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 5 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/arch/cu/Night_Render.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
 
 </div>
 <!-- BENTO GRID END -->

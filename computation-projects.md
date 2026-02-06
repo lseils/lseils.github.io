@@ -6,50 +6,230 @@ permalink: /computation-projects/
 
 
 <style>
-.page-break {
-  height: 4px;
-  background: linear-gradient(to right, #ccc, #999);
-  margin: 2rem 0;
-}
+  /* Mobile First: Stack them on top of each other */
+  .project-split {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 2rem;
+  }
+
+  /* Desktop (Computers): Split 1/3 and 2/3 [min-width was 768px]*/
+  @media (min-width: 758px) {
+    .project-split {
+      grid-template-columns: 1fr 2fr; 
+    }
+  }
 </style>
 
 
+<!-- BENTO GRID START -->
+<div class="bento-grid">
 
-## Contents
-![Courtyard](assets/img/arch/Courtyard.png){:width="200"} ![Courtyard](assets/img/arch/Ground-test.jpg){:width="200"} 
-![Courtyard](assets/img/arch/EXTREND2.jpg){:width="200"} ![Courtyard](assets/img/arch/finalIndoorRender.9.26.jpg){:width="200"}
-![Courtyard](assets/img/arch/AD3-rerender3--.png){:width="200"} ![Courtyard](assets/img/arch/2021-04-19-final.png){:width="200"}
+    <!-- 1. HEADER TITLE -->
+    <div class="box span-12 header-hero">
+        <h1>Computation Projects</h1>
+        <div class="subtitle">
+            Adjacency Matrix / Spatial Configuration / Automatic Egress / PV Placement
+        </div>
+    </div>
 
-<div class="page-break"></div>
----
+    <!-- PROJECT 1 -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Adjacency Matrix</h2>
 
-  ## Spatial Grammars for Mass-Housing Mediation
-  **City Hall**
-  
-  *Professor: Carla*
-  
-  Fix and update this
-  *Troy, NY contains a rich history, from its early days as a settlement on the
-  Hudson River to its emergence as the “Collar City” due to its pivotal role in the
-  production of detachable shirt collars. Like many industrial cities, Troy faced
-  decline during the 19th century as the U.S. entered a post-industrial era. To
-  day, however, the city is experiencing a revival, and the development of a new
-  city hall would significantly contribute to this revitalization effort.
-  Drawing inspiration from Troy’s existing context and local architectural features,
-  the proposed design for the city hall aims to meld together the community.
-  The building takes the form of a circle, symbolizing unity and wholeness, and
-  is designed to integrate public and administrative functions. The circular layout
-  fosters a sense of connection between the city’s government and its residents,
-  with all programs linked by an inner circulation path.
-  The use of glass and an open courtyard invites transparency and visibility,
-  allowing the public to see and engage with the functions of city hall. The
-  courtyard itself serves as a communal space, becoming the centerpoint of the
-  design—an area where the people of Troy can gather and connect. Positioned
-  near the waterfront and the popular farmers market, two essential parts of
-  Troy’s fabric, the city hall creates pathways that connect to these features. The
-  grand entrance, facing the Hudson River, offers a welcoming gesture to the
-  city from the water, reinforcing Troy’s connection to its historic riverfront.*
+        <div class="project-split">
+            <div style="font-size: 0.95rem; line-height: 1.8;">
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
+                    <strong>Sheldon, Dennis</strong>
+                </div>
+
+            <!-- Right Column: The Story (Takes up 2/3 width) -->
+            <div>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
+                  This project involved assigning weighted scores to the proximity needs of different school programs. Putting some rooms near eachother, that would make most sense and creating heirchay of what proximities were more important. The created Python script generated a simple rectangular layout with a single corridor. The script iteratively optimized the location of each program, with a self-evaluation score to understand how well it’s iteration aligned with the adjacency matrix. This allows for one to plan programatic layouts to one’s desires, within seconds rather than manually iterating.
+                </p>
+            </div>
+        </div>
+    </div>
 
 
+    <!-- 1. PHOTO 1 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/am/Flowchart.png' | relative_url }}" alt="Lydia Seils">
+    </div>
 
-![Courtyard](assets/img/arch/Courtyard.png){:width="200"}
+    <!-- 1. PHOTO 2 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/am/Matrix.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 3 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/am/O2.png' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 4 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/am/O3.png' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 5 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/am/O4.png' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+
+    <!-- PROJECT 2 -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Spatial Configuration</h2>
+        
+        <div class="project-split">
+            <!-- Left Column: The Stats -->
+            <div style="font-size: 0.95rem; line-height: 1.8;">
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
+                    <strong>Leita, Carla</strong>
+                </div>
+            </div>
+
+            <!-- Right Column: The Story -->
+            <div>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
+                  Environments, cultures, and technologies are constantly changing. As designers, how do we deal and plan with ongoing changes in spatial conditions. Can a Space-Grammar tool be created that may help design collective housing layouts for different cultures of use of semi-public space within varying density demands? Applying Space-Grammar’s processes of inquiry to collective housing layouts could help manage/mediate spatial relationships between public and private space between units, across different cultural and/or density contexts. This thesis aims to explore the different valuable shared spaces that could exist in collective housing, using basic geometry and orientations. Different organizations, densities, and access points can dramatically affect the residents how experience these spaces. Some of these spaces may bring the feeling of belonging, the creation of community connections via direct interaction, giving one a sense of belonging. Some of these spaces give the feeling of safety as there are others viewing the area. Other spaces feel as spill over or an extension of space, shared spaces reduce the need for excessive private infrastructure. A spatial configuration tool allows us to quickly test and analyze these spaces, allowing us to explore the values of shared space.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 2. PHOTO 1 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Psuedo_Code.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 2 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/P1.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 3 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sg/P2.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 4 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sg/P2.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 5 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sg/P4.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 6 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Render.png' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+
+    <!-- PROJECT 3 -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Automatic Egress</h2>
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
+                    <strong>Sheward, Hugo</strong>
+                </div>
+
+            <!-- Right Column: The Story (Takes up 2/3 width) -->
+            <div>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
+                  In every building, egress stairs are a key part of safety and must follow strict building code requirements. When designing, room layouts and occupancies change, thus requiring recalculations for the stairs, over and over again. This tool updates stairs instantly as the building changes, ensuring that saftey, and design work together from the start. The Automatic Egress Stair Tool solves this by linking building data to code rules. It calculates occupancy loads, stair widths, and floor heights, then automatically generates code-compliant stairs inside the digitial model. This saves time, reduces mistakes, and keeps the design process focused on creativity instead of repetitive math.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. PHOTO 1 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/fs/Pseudo_Code.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 3. PHOTO 2 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/fs/Plan.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 3. PHOTO 3 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/fs/Stairs.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 3. PHOTO 4 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/fs/Egress.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 3. PHOTO 5 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/comp/fs/Final_Output.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+
+    <!-- PROJECT 4 -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">PV Placement</h2>
+
+        <div class="project-split">
+            <div style="font-size: 0.95rem; line-height: 1.8;">
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
+                    <strong>Economou, Athanassios</strong>
+                </div>
+
+            <!-- Right Column: The Story (Takes up 2/3 width) -->
+            <div>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
+                  Today, energy demands are on the rise with the need for Data Centers, Crypto Mining, Commercial Uses, and much more. Solar panels provide an efficent, cheaper, and greener energy option and can take advantage of unused roof top spaces. However, populating rooftops with solar panels is not as easy as it sounds, as there are obstacles that the panels must avoid, like mechanical equipment and skylights. Furthermore, solar panels work much more efficently if they are strung together in a specifc series. Currently to figure out an efficent layout for a large rooftop can take multiple hours. This solar panel placement tool however can give multiple viable solutions within a minute. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 4. PHOTO 1 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Psuedo_Flow.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 4. PHOTO 2 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Layouts.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 4. PHOTO 3 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Roof_Iters.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 4. PHOTO 4 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Iso_A.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 4. PHOTO 5 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Iso_B.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 4. PHOTO 4 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Iso_C.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+
+
+
+</div>
+<!-- BENTO GRID END -->
