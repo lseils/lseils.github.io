@@ -220,17 +220,17 @@ permalink: /computation-projects/
     </div>
 
     <!-- 4. PHOTO 4 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/sp/Iso_A.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 5 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/sp/Iso_B.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 4 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/comp/sp/Iso_C.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 

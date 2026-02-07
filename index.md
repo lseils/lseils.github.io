@@ -10,7 +10,7 @@ title: Home
     <div class="box span-12 header-hero">
         <h1>Lydia Seils</h1>
         <div class="subtitle">
-            M.S. Architecture (Computational Design) // Georgia Tech
+            M.S. Architecture (Computational Design) - Georgia Tech
         </div>
     </div>
 
@@ -45,9 +45,9 @@ title: Home
         <span class="arrow-icon">@</span>
     </a>
 
-    <!-- 5. TIMELINE / RESUME -->
+    <!-- 5. Education -->
     <div class="box span-12">
-        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Education & Experience</h2>
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Education</h2>
         
         <!-- Item 1 -->
         <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
@@ -66,15 +66,145 @@ title: Home
                 <span style="color: var(--text-muted);">Rensselaer Polytechnic Institute</span>
             </div>
         </div>
+    </div>
 
-        <!-- Item 3 -->
-        <div style="display: grid; grid-template-columns: 150px 1fr;">
-            <span style="font-family: monospace; color: var(--text-muted);">2023</span>
+    <!-- 6. Experience -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Experience</h2>
+        
+        <!-- Item 1 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);">August 2025 - Pres</span>
             <div>
-                <strong>Internship</strong><br>
-                <span style="color: var(--text-muted);">Chicago Dept. of Planning and Development</span>
+                <strong>Graduate Teaching Assistant</strong><br>
+                <span style="color: var(--text-muted);">-Conducted desk critiques with constructive feedback</span>
+                <span style="color: var(--text-muted);">-Supported 60+ students with design and technical questions</span>
+                <span style="color: var(--text-muted);">-Assisted faculty with course logistics and operations</span>
             </div>
         </div>
+
+        <!-- Item 2 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);">May - August 2025</span>
+            <div>
+                <strong>BCA Architects & Engineers</strong><br>
+                <span style="color: var(--text-muted);">-Developed Dynamo scripts for automation tasks</span>
+                <span style="color: var(--text-muted);">-Generated drawing sets and 3D models</span>
+                <span style="color: var(--text-muted);">-Conducted existing condition surveys</span>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);">May - August 2024</span>
+            <div>
+                <strong>BCA Architects & Engineers</strong><br>
+                <span style="color: var(--text-muted);">-Generated drawing sets and 3D models from Lidar scans</span>
+                <span style="color: var(--text-muted);">-Conducted field verifications</span>
+            </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);">June - August 2023</span>
+            <div>
+                <strong>Chicago Dept. of Planning and Development</strong><br>
+                <span style="color: var(--text-muted);">-Created digital models for records</span>
+                <span style="color: var(--text-muted);">-Designed massing models for RFQs</span>
+                <span style="color: var(--text-muted);">-Produced informative graphics and drawings</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. Technical Skills -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Technical Skills</h2>
+        
+        <!-- Item 1 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);"></span>
+            <div>
+                <strong>Design:</strong><br>
+                <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</span>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);"></span>
+            <div>
+                <strong>Programming</strong><br>
+                <span style="color: var(--text-muted);">Python, Java, R</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8. Awards -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Awards</h2>
+        
+        <!-- Item 1 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);">2025</span>
+            <div>
+                <strong>Faculty Award</strong><br>
+                <span style="color: var(--text-muted);">High Scholastic Attainment</span>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);">2024</span>
+            <div>
+                <strong>Faculty Award</strong><br>
+                <span style="color: var(--text-muted);">High Scholastic Attainment</span>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);">Spring 2021</span>
+            <div>
+                <strong>Honors Review</strong><br>
+                <span style="color: var(--text-muted);">Architecture Design Studio</span>
+            </div>
+        </div>
+    </div>
+
+        <!-- 9. References -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">References</h2>
+        
+        <!-- Item 1 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);"></span>
+            <div>
+                <strong>Dennis Shelden</strong><br>
+                <span style="color: var(--text-muted);">Director, CASE</span>
+                <span style="color: var(--text-muted);">sheldd@rpi.edu</span>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);"></span>
+            <div>
+                <strong>Athanassios Economou</strong><br>
+                <span style="color: var(--text-muted);">Professor; Director, Shape Computation Lab</span>
+                <span style="color: var(--text-muted);">thanos.economou@design.gatech.edu</span>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <span style="font-family: monospace; color: var(--text-muted);"></span>
+            <div>
+                <strong>Fleet Hower</strong><br>
+                <span style="color: var(--text-muted);">Professor; Director, Web Services</span>
+                <span style="color: var(--text-muted);">howerj@rpi.edu</span>
+            </div>
+        </div>
+
     </div>
 
 </div>
