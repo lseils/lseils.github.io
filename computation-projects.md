@@ -57,7 +57,7 @@ permalink: /computation-projects/
 
     <!-- 1. PHOTO 1 -->
     <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/am/Flowchart.png' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/am/Flowchart.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 1. PHOTO 2 -->
@@ -76,12 +76,12 @@ permalink: /computation-projects/
     </div>
 
     <!-- 1. PHOTO 5 -->
-    <div class="box span-12 photo-box">
+    <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/am/Outputs3.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 1. PHOTO 6 -->
-    <div class="box span-12 photo-box">
+    <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/am/Outputs5.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
@@ -109,12 +109,12 @@ permalink: /computation-projects/
     </div>
 
     <!-- 2. PHOTO 1 -->
-    <div class="box span-8 photo-box">
+    <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/sg/Output.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 2 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/sg/Psuedo_Code2.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
     
@@ -161,12 +161,12 @@ permalink: /computation-projects/
     </div>
 
     <!-- 3. PHOTO 1 -->
-    <div class="box span-6 photo-box">
+    <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/comp/fs/Pseudo_Code.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 3. PHOTO 2 -->
-    <div class="box span-6 photo-box">
+    <div class="box span-8 photo-box">
         <img src="{{ '/assets/img/comp/fs/B2-Plan.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
@@ -209,18 +209,18 @@ permalink: /computation-projects/
 
 
     <!-- 4. PHOTO 1 -->
-    <div class="box span-4 photo-box">
+    <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/sp/Psuedo_Flow.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 2 -->
-    <div class="box span-8 photo-box">
-        <img src="{{ '/assets/img/comp/sp/Layouts.jpg' | relative_url }}" alt="Lydia Seils">
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Roof_Iters.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 3 -->
     <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/comp/sp/Roof_Iters.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/sp/Layouts.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 4 -->
