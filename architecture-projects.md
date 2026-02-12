@@ -28,7 +28,7 @@ permalink: /architecture-projects/
     <div class="box span-12 header-hero">
         <h1>Architecture Projects</h1>
         <div class="subtitle">
-            Civic Unity / Chelsea Library / Bennington Museum / Folded Narratives
+            Civic Unity / Bennington Museum / Chelsea Library / Folded Narratives
         </div>
     </div>
 
@@ -99,6 +99,75 @@ permalink: /architecture-projects/
 
     <!-- PROJECT 2 -->
     <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Bennington Museum</h2>
+
+        <div class="project-split">
+            <div style="font-size: 0.95rem; line-height: 1.8;">
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Typology</span>
+                    <strong>Historical Museum</strong>
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
+                    <strong>Erel, Yael</strong>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Location</span>
+                    <strong>Bennington, VT</strong>
+                </div>
+            </div>
+
+            <!-- Right Column: The Story (Takes up 2/3 width) -->
+            <div>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
+                  The Bennington Museum is located in Vermont and it sits on a 10-acre site. The Bennington Museum connects the Town of Benningiton and Old Bennington. The muesum, founded in 1852, is essential to the local community, holding collections, and providing public spaces. The muesum holds a wide variety of collections, some being historic relics and interesting art. The museum has seen addition on top of addition. It is made up of many different kinds of exhibits that all have their own feel to them. There are a lot of inconsistencies that came along because of all of the additions. This new addition played off of the inconsistencies. The different shaped brick stones take inspiration from the original museum. The masonry is modernized but also exhibits the idea of the form inconsistencies of the existing musuem. There is also a play between view vs. lighting. The small windows in the eroded part of the addition can only act as lighting. However, the large end windows act as specific views. There is a cafe that is central to this addition. It is in a location that is accessible at the beginning or end of your tour.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 2. PHOTO 1 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/arch/bm/AcrossRoad.02.11.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 2 -->
+    <div class="box span-8 photo-box">
+        <img src="{{ '/assets/img/arch/bm/EntranceHall.02.11.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 3 -->
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/arch/bm/test_print_2.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 4 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/arch/bm/test_print_2.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 5 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/arch/bm/Exhibit.02.11.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 6 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/arch/bm/Tunnel.02.11.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 2. PHOTO 7 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/arch/bm/FrontElevation.02.11.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+
+
+    <!-- PROJECT 3 -->
+    <div class="box span-12">
         <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Chelsea Library</h2>
 
         <div class="project-split">
@@ -130,93 +199,34 @@ permalink: /architecture-projects/
         </div>
     </div>
 
-    <!-- 2. PHOTO 1 -->
+    <!-- 3. PHOTO 1 -->
     <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/arch/cl/Street_Render.png' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 2. PHOTO 3 -->
+    <!-- 3. PHOTO 3 -->
     <div class="box span-8 photo-box">
         <img src="{{ '/assets/img/arch/cl/G_Plan.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 2. PHOTO 5 -->
+    <!-- 3. PHOTO 5 -->
     <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/arch/cl/Dot_Model.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 2. PHOTO 4 -->
+    <!-- 3. PHOTO 4 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/arch/cl/Section.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 2. PHOTO 2 -->
+    <!-- 3. PHOTO 2 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/arch/cl/Perspective_Section.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 2. PHOTO 6 -->
+    <!-- 3. PHOTO 6 -->
     <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/arch/cl/Highline_Render.png' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-
-
-    <!-- PROJECT 3 -->
-    <div class="box span-12">
-        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Bennington Museum</h2>
-
-        <div class="project-split">
-            <div style="font-size: 0.95rem; line-height: 1.8;">
-                <div style="margin-bottom: 1rem;">
-                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Typology</span>
-                    <strong>Historical Museum</strong>
-                </div>
-                
-                <div style="margin-bottom: 1rem;">
-                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
-                    <strong>Erel, Yael</strong>
-                </div>
-
-                <div style="margin-bottom: 1rem;">
-                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Location</span>
-                    <strong>Bennington, VT</strong>
-                </div>
-            </div>
-
-            <!-- Right Column: The Story (Takes up 2/3 width) -->
-            <div>
-                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
-                  The Bennington Museum is located in Vermont and it sits on a 10-acre site. The Bennington Museum connects the Town of Benningiton and Old Bennington. The muesum, founded in 1852, is essential to the local community, holding collections, and providing public spaces. The muesum holds a wide variety of collections, some being historic relics and interesting art. The museum has seen addition on top of addition. It is made up of many different kinds of exhibits that all have their own feel to them. There are a lot of inconsistencies that came along because of all of the additions. This new addition played off of the inconsistencies. The different shaped brick stones take inspiration from the original museum. The masonry is modernized but also exhibits the idea of the form inconsistencies of the existing musuem. There is also a play between view vs. lighting. The small windows in the eroded part of the addition can only act as lighting. However, the large end windows act as specific views. There is a cafe that is central to this addition. It is in a location that is accessible at the beginning or end of your tour.
-                </p>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- 3. PHOTO 1 -->
-    <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/arch/cu/Courtyard.png' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-    <!-- 3. PHOTO 2 -->
-    <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/arch/cu/Plan_1.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-    <!-- 3. PHOTO 3 -->
-    <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/arch/cu/Physical_Model.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-    <!-- 3. PHOTO 4 -->
-    <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/arch/cu/Day_Render.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-    <!-- 3. PHOTO 5 -->
-    <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/arch/cu/Night_Render.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
 

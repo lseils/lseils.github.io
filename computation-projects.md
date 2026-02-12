@@ -209,13 +209,13 @@ permalink: /computation-projects/
 
 
     <!-- 4. PHOTO 1 -->
-    <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/sp/Psuedo_Flow.jpg' | relative_url }}" alt="Lydia Seils">
+    <div class="box span-8 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Roof_Iters.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 2 -->
-    <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/sp/Roof_Iters.jpg' | relative_url }}" alt="Lydia Seils">
+    <div class="box span-4 photo-box">
+        <img src="{{ '/assets/img/comp/sp/Psuedo_Flow.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 3 -->
