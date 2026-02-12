@@ -161,7 +161,7 @@ permalink: /architecture-projects/
 
     <!-- 2. PHOTO 7 -->
     <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/arch/bm/FrontElevation.02.11.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/bm/FrontElevation.02.11.ExtraCrop.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
 
