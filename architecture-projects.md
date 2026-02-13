@@ -90,6 +90,11 @@ permalink: /architecture-projects/
         <img src="{{ '/assets/img/arch/cu/Day_Render.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
+    <!-- 1. PHOTO 4 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/arch/cu/PRG.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
     <!-- 1. PHOTO 5 -->
     <div class="box span-12 photo-box">
         <img src="{{ '/assets/img/arch/cu/Night_Render.jpg' | relative_url }}" alt="Lydia Seils">
@@ -141,7 +146,7 @@ permalink: /architecture-projects/
 
     <!-- 2. PHOTO 2 -->
     <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/arch/bm/Roof_Plan.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/bm/Program.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 3 -->
@@ -156,7 +161,7 @@ permalink: /architecture-projects/
 
     <!-- 2. PHOTO 4 -->
     <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/arch/bm/Section_2.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/bm/Section_2_Crop.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 5 -->
