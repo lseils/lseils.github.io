@@ -91,8 +91,13 @@ permalink: /architecture-projects/
     </div>
 
     <!-- 1. PHOTO 4 -->
-    <div class="box span-12 photo-box">
+    <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/arch/cu/PRG.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 4 -->
+    <div class="box span-8 photo-box">
+        <img src="{{ '/assets/img/arch/cu/Long_Section_Crop.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 1. PHOTO 5 -->
