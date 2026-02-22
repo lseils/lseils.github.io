@@ -158,17 +158,17 @@ permalink: /architecture-projects/
 
     <!-- 2. PHOTO 3 -->
     <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/arch/bm/Plan_1.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/bm/Plan_1_Wscale.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 3 -->
     <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/arch/bm/Plan_2.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/bm/Plan_2_Wscale.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 4 -->
     <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/arch/bm/Section_2_Crop.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/arch/bm/Section.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 2. PHOTO 5 -->
