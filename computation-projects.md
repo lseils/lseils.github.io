@@ -33,7 +33,7 @@ permalink: /computation-projects/
         </div>
     </div>
 
-    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+
 
     <!-- PROJECT 1 -->
     <div class="box span-12">
@@ -102,7 +102,7 @@ permalink: /computation-projects/
         <img src="{{ '/assets/img/comp/sg/Iter2.RenderResults.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+
 
     <!-- PROJECT 2 -->
     <div class="box span-12">
@@ -156,7 +156,7 @@ permalink: /computation-projects/
         <img src="{{ '/assets/img/comp/am/Outputs5.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+
 
     <!-- PROJECT 3 -->
     <div class="box span-12">
@@ -204,7 +204,7 @@ permalink: /computation-projects/
         <img src="{{ '/assets/img/comp/fs/B2-FinalOutput.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+
 
     <!-- PROJECT 4 -->
     <div class="box span-12">
