@@ -24,5 +24,19 @@
     </footer>
   </div>
 
+  <script>
+  document.querySelectorAll('.box').forEach(box => {
+      box.addEventListener('click', function() {
+          // Optional: Close other open boxes when clicking a new one
+          document.querySelectorAll('.box').forEach(b => {
+              if (b !== this) b.classList.remove('is-expanded');
+          });
+
+          // Toggle the expanded class on the clicked box
+          this.classList.toggle('is-expanded');
+      });
+  });
+  </script>
+  
 </body>
 </html>
