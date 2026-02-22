@@ -32,7 +32,7 @@ permalink: /architecture-projects/
         </div>
     </div>
 
-    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+
 
     <!-- PROJECT 1 -->
     <div class="box span-12">
@@ -107,7 +107,7 @@ permalink: /architecture-projects/
         <img src="{{ '/assets/img/arch/cu/Night_Render.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+  
 
     <!-- PROJECT 2 -->
     <div class="box span-12">
@@ -186,7 +186,7 @@ permalink: /architecture-projects/
         <img src="{{ '/assets/img/arch/bm/Facade3.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+ 
 
     <!-- PROJECT 3 -->
     <div class="box span-12">
@@ -251,7 +251,7 @@ permalink: /architecture-projects/
         <img src="{{ '/assets/img/arch/cl/Highline_Render.png' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+  
 
     <!-- PROJECT 4 -->
     <div class="box span-12">
