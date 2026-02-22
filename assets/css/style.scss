@@ -104,72 +104,23 @@ h1, h2, h3 { font-family: 'Oswald', sans-serif; margin: 0; }
 .photo-box img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(0%); transition: 0.5s; }
 .photo-box:hover img { filter: grayscale(0%); }
 
-/* 1. The Container (The blurred backdrop) */
+
+/* Add this to your CSS */
 .box.is-expanded {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 9999;
+    /* Force the box to span all 12 columns */
+    grid-column: span 12 !important; 
     
-    /* This creates the dark, slightly blurred overlay effect */
-    background-color: rgba(18, 18, 18, 0.9); /* 90% opacity dark background */
-    backdrop-filter: blur(8px);              /* Blurs the content behind it */
+    /* Optional: Make it taller when expanded */
+    min-height: 500px; 
     
-    border: none;
-    padding: 2rem; /* Padding prevents image from touching screen edges */
-    
-    /* Center the content perfectly */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    /* Optional: Change background to highlight it */
+    background: var(--bg-color);
+    border-color: var(--highlight);
+    z-index: 10;
 }
 
-/* 2. The Close Button */
-.box.is-expanded::after {
-    content: "✕ CLOSE";
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    font-family: 'Oswald', sans-serif;
-    color: var(--text-main);
-    background: rgba(0,0,0,0.5); /* Background to make text pop */
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    z-index: 10001; /* Ensure it stays on top */
-}
-
-/* 3. The Image Container */
-.box.is-expanded .photo-box {
-    width: 100%;
-    height: 100%;
-    display: flex;           /* Flexbox ensures the img stays centered */
-    justify-content: center;
-    align-items: center;
-    background: transparent; /* Remove any card background color */
-}
-
-/* 4. The Image Itself (The important fix) */
+/* Fix for images inside expanded boxes */
 .box.is-expanded .photo-box img {
-    width: auto;             /* Let width adjust automatically */
-    height: auto;            /* Let height adjust automatically */
-    max-width: 100%;         /* Never wider than screen */
-    max-height: 90vh;        /* Never taller than 90% of screen height */
-    
-    /* This ensures the WHOLE image is seen without cropping */
-    object-fit: contain;     
-    
-    box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Optional: Adds depth */
-}
-
-/* Optional: Hide text/titles when in full screen so only the image shows */
-.box.is-expanded h1, 
-.box.is-expanded h2, 
-.box.is-expanded p,
-.box.is-expanded .arrow-icon {
-    display: none;
+    height: 500px; /* Adjust as needed */
+    object-fit: cover;
 }
