@@ -29,11 +29,82 @@ permalink: /computation-projects/
     <div class="box span-12 header-hero">
         <h1>Computation Projects</h1>
         <div class="subtitle">
-            Adjacency Matrix / Spatial Configuration / Automatic Egress / PV Placement
+            Spatial Configuration Generator / Adjacency Matrix / Automatic Egress / PV Placement
         </div>
     </div>
 
+    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+
     <!-- PROJECT 1 -->
+    <div class="box span-12">
+        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Spatial Configuration Generator</h2>
+        
+        <div class="project-split">
+            <!-- Left Column: The Stats -->
+            <div style="font-size: 0.95rem; line-height: 1.8;">
+                <div style="margin-bottom: 1rem;">
+                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
+                    <strong>Leita, Carla</strong>
+                </div>
+            </div>
+
+            <!-- Right Column: The Story -->
+            <div>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
+                  Environments, cultures, and technologies are constantly changing. As designers, how do we deal and plan with ongoing changes in spatial conditions. Can a Space-Grammar tool be created that may help design collective housing layouts for different cultures of use of semi-public space within varying density demands? Applying Space-Grammar’s processes of inquiry to collective housing layouts could help manage/mediate spatial relationships between public and private space between units, across different cultural and/or density contexts. This thesis aims to explore the different valuable shared spaces that could exist in collective housing, using basic geometry and orientations. Different organizations, densities, and access points can dramatically affect the residents how experience these spaces. Some of these spaces may bring the feeling of belonging, the creation of community connections via direct interaction, giving one a sense of belonging. Some of these spaces give the feeling of safety as there are others viewing the area. Other spaces feel as spill over or an extension of space, shared spaces reduce the need for excessive private infrastructure. A spatial configuration tool allows us to quickly test and analyze these spaces, allowing us to explore the values of shared space.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 1. PHOTO 1 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Parti.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 2 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Psuedo_Code2.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 3 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/SpaceBlocksHanoiModel.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 4 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Iterations.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+    
+    <!-- 1. PHOTO 5 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Iter2.Overall.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 6 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Iter2.Access.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 7 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Iter2.ChunkContains.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 8 -->
+    <div class="box span-6 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Iter2.ChunkContains2.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    <!-- 1. PHOTO 9 -->
+    <div class="box span-12 photo-box">
+        <img src="{{ '/assets/img/comp/sg/Iter2.RenderResults.jpg' | relative_url }}" alt="Lydia Seils">
+    </div>
+
+    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
+
+    <!-- PROJECT 2 -->
     <div class="box span-12">
         <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Adjacency Matrix</h2>
 
@@ -55,89 +126,37 @@ permalink: /computation-projects/
     </div>
 
 
-    <!-- 1. PHOTO 1 -->
+    <!-- 2. PHOTO 1 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/am/Flowchart.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 1. PHOTO 2 -->
+    <!-- 2. PHOTO 2 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/am/Matrix.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 1. PHOTO 3 -->
+    <!-- 2. PHOTO 3 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/am/Outputs1.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 1. PHOTO 4 -->
+    <!-- 2. PHOTO 4 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/am/Outputs2.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 1. PHOTO 5 -->
+    <!-- 2. PHOTO 5 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/am/Outputs3.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-    <!-- 1. PHOTO 6 -->
+    <!-- 2. PHOTO 6 -->
     <div class="box span-6 photo-box">
         <img src="{{ '/assets/img/comp/am/Outputs5.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
-
-    <!-- PROJECT 2 -->
-    <div class="box span-12">
-        <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Spatial Configuration</h2>
-        
-        <div class="project-split">
-            <!-- Left Column: The Stats -->
-            <div style="font-size: 0.95rem; line-height: 1.8;">
-                <div style="margin-bottom: 1rem;">
-                    <span style="color: var(--text-muted); display:block; font-size: 0.8rem; text-transform:uppercase;">Professor</span>
-                    <strong>Leita, Carla</strong>
-                </div>
-            </div>
-
-            <!-- Right Column: The Story -->
-            <div>
-                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">
-                  Environments, cultures, and technologies are constantly changing. As designers, how do we deal and plan with ongoing changes in spatial conditions. Can a Space-Grammar tool be created that may help design collective housing layouts for different cultures of use of semi-public space within varying density demands? Applying Space-Grammar’s processes of inquiry to collective housing layouts could help manage/mediate spatial relationships between public and private space between units, across different cultural and/or density contexts. This thesis aims to explore the different valuable shared spaces that could exist in collective housing, using basic geometry and orientations. Different organizations, densities, and access points can dramatically affect the residents how experience these spaces. Some of these spaces may bring the feeling of belonging, the creation of community connections via direct interaction, giving one a sense of belonging. Some of these spaces give the feeling of safety as there are others viewing the area. Other spaces feel as spill over or an extension of space, shared spaces reduce the need for excessive private infrastructure. A spatial configuration tool allows us to quickly test and analyze these spaces, allowing us to explore the values of shared space.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!-- 2. PHOTO 1 -->
-    <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/sg/Output.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-    <!-- 2. PHOTO 2 -->
-    <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/sg/Psuedo_Code2.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-    
-    <!-- 2. PHOTO 4 -->
-    <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/comp/sg/P2.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-    <!-- 2. PHOTO 5 -->
-    <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/sg/P3.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-    <!-- 2. PHOTO 6 -->
-    <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/sg/P4.jpg' | relative_url }}" alt="Lydia Seils">
-    </div>
-
-    <!-- 2. PHOTO 7 -->
-    <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/comp/sg/Render.png' | relative_url }}" alt="Lydia Seils">
-    </div>
-
+    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
 
     <!-- PROJECT 3 -->
     <div class="box span-12">
@@ -185,6 +204,7 @@ permalink: /computation-projects/
         <img src="{{ '/assets/img/comp/fs/B2-FinalOutput.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
+    /* +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+  +=--=+ */
 
     <!-- PROJECT 4 -->
     <div class="box span-12">
