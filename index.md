@@ -14,10 +14,14 @@ title: Home
         </div>
     </div>
 
+
+
     <!-- 2. PHOTO (Update 'me.jpg' to your actual image filename in assets/img/) -->
     <div class="box span-4 photo-box">
         <img src="{{ '/assets/img/home/Headshot-BlackWhite.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
+
+
 
     <!-- 3. BIO -->
     <div class="box span-8">
@@ -27,6 +31,8 @@ title: Home
             Previously, I earned my B.Arch from RPI. This collection includes contemporary architectural projects and custom design tools.
         </p>
     </div>
+
+
 
     <!-- 4. BIG NAV LINKS (The visual boxes) -->
     <!-- Note: We use Liquid tags for links to keep them working -->
@@ -44,6 +50,8 @@ title: Home
         <h3>Get in Touch</h3>
         <span class="arrow-icon">@</span>
     </a>
+
+
 
     <!-- 5. Education -->
     <div class="box span-12">
@@ -67,6 +75,8 @@ title: Home
             </div>
         </div>
     </div>
+
+
 
     <!-- 6. Experience -->
     <div class="box span-12">
@@ -116,17 +126,19 @@ title: Home
         </div>
     </div>
 
+
+
     <!-- 7. Technical Skills -->
     <div class="box span-12">
         <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Technical Skills</h2>
         
+
+        
         <!-- Item 1 -->
         <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
-            <span style="font-family: monospace; color: var(--text-muted);"></span>
-            <div>
-                <strong>Design:</strong><br>
-                <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</span>
-            </div>
+            <strong>Design:</strong><br>
+            <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</span>
+            
         </div>
 
         <!-- Item 2 -->
