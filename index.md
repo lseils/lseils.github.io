@@ -147,9 +147,10 @@ title: Home
 
         <!-- Item 2 -->
         <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
-            <span style="font-family: monospace; color: var(--text-muted);"></span>
+            <!-- <span style="font-family: monospace; color: var(--text-muted);"></span> -->
+            <strong>Programming</strong><br>
             <div>
-                <strong>Programming</strong><br>
+                <!-- <strong>Programming</strong><br> -->
                 <span style="color: var(--text-muted);">Python, Java, R</span>
             </div>
         </div>
