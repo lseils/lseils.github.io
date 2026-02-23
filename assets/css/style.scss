@@ -162,3 +162,74 @@ h1, h2, h3 { font-family: 'Oswald', sans-serif; margin: 0; }
     margin: 0 auto;       /* Double check centering */
     display: block;
 }
+
+
+
+
+
+/* --- MOBILE FIXES --- */
+@media (max-width: 768px) {
+
+    /* 1. Tame the Typography & Spacing */
+    .wrapper {
+        padding: 1rem; /* Reduce outer edge spacing */
+    }
+    
+    .bento-grid {
+        display: flex; /* Stack them in a column */
+        flex-direction: column;
+        gap: 1rem; /* Smaller gap between boxes */
+    }
+
+    .box {
+        padding: 1.5rem; /* Reduce internal box padding */
+        min-height: auto; /* Let height adjust to content */
+    }
+
+    /* Force headers inside boxes to shrink on mobile */
+    .box h1, .box h2, .box h3 {
+        font-size: 1.8rem !important; /* Force smaller size */
+        line-height: 1.2;
+        word-wrap: break-word; /* Prevent long words causing scrollbars */
+    }
+    
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    /* 2. Fix the EXPANDED Overlay on Mobile */
+    .box.is-expanded {
+        padding: 1.5rem;
+        padding-top: 5rem; /* Extra top padding so text doesn't hit the CLOSE button */
+        align-items: flex-start; /* Top-align content so we can scroll down */
+        justify-content: flex-start;
+    }
+
+    /* Move the Close button to a safe spot */
+    .box.is-expanded::after {
+        top: 1.5rem;
+        right: 1.5rem;
+        font-size: 0.9rem; /* Slightly smaller button text */
+        background: rgba(0,0,0,0.5); /* Optional: bg to make it readable over images */
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+
+    /* 3. Fix the Image Sizing for Mobile */
+    /* We want width to be 100% here, unlike desktop where we wanted auto width */
+    .box.is-expanded img, 
+    .box.is-expanded .photo-box img {
+        width: 100%;       /* Fill the width of the phone */
+        height: auto;      /* Calculate height automatically */
+        max-height: 50vh;  /* Don't let image take more than 50% of screen height */
+        object-fit: contain;
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Ensure the container doesn't force a weird height */
+    .box.is-expanded .photo-box {
+        height: auto;
+        min-height: 0;
+        display: block; /* Remove flex centering for mobile, just stack it */
+    }
+}
