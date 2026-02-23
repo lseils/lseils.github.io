@@ -139,8 +139,8 @@ title: Home
             <!-- <span style="font-family: monospace; color: var(--text-muted);">Design</span> -->
             <strong>Design:</strong><br>
             <div>
-                <!-- <strong>Design:</strong><br> -->
-                <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</span>
+                <strong>Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</strong><br>
+                <!-- <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</span> -->
             </div>
             
         </div>
