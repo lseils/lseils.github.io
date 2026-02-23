@@ -133,11 +133,15 @@ title: Home
         <h2 style="border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Technical Skills</h2>
         
 
-        
+
         <!-- Item 1 -->
         <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
+            <!-- <span style="font-family: monospace; color: var(--text-muted);">Design</span> -->
             <strong>Design:</strong><br>
-            <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</span>
+            <div>
+                <!-- <strong>Design:</strong><br> -->
+                <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</span>
+            </div>
             
         </div>
 
