@@ -139,8 +139,8 @@ title: Home
             <!-- <span style="font-family: monospace; color: var(--text-muted);">Design</span> -->
             <strong>Design:</strong><br>
             <div>
-                <strong></strong><br>
-                <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Dynamo, Laser Cutting, 3D printing</span>
+                
+                <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Climate Studio, Ladybug, Dynamo, Laser Cutting, 3D printing</span>
             </div>
             
         </div>
@@ -151,7 +151,7 @@ title: Home
             <!-- <strong>Programming</strong><br> -->
             <div>
                 <strong></strong><br>
-                <span style="color: var(--text-muted);">Python, Java, R</span>
+                <span style="color: var(--text-muted);">Python, Java, html</span>
             </div>
         </div>
     </div>
