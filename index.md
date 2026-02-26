@@ -142,10 +142,9 @@ title: Home
 
         <!-- Item 1 -->
         <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
-            <!-- <span style="font-family: monospace; color: var(--text-muted);">Design</span> -->
-            <strong>Design:</strong><br>
+            <span style="font-family: monospace; color: var(--text-muted);">      </span>
             <div>
-                
+                <strong>Design:</strong><br>
                 <span style="color: var(--text-muted);">Rhino3D, Adobe Suite, Revit, Grasshopper, Climate Studio, Ladybug, Dynamo, Laser Cutting, 3D printing</span>
             </div>
             
@@ -153,10 +152,9 @@ title: Home
 
         <!-- Item 2 -->
         <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
-            <!-- <span style="font-family: monospace; color: var(--text-muted);"></span> -->
-            <strong>Programming</strong><br>
+            <span style="font-family: monospace; color: var(--text-muted);">      </span>
             <div>
-                <strong></strong><br>
+                <strong>Programming</strong><br>
                 <span style="color: var(--text-muted);">Python, Java, html, Github</span>
             </div>
         </div>
