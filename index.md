@@ -51,6 +51,12 @@ title: Home
         <span class="arrow-icon">@</span>
     </a>
 
+    <!-- DOWNLOAD PORTFOLIO LINK -->
+    <a href="{{ '/assets/pdf/Portfolio_Seils_lydia.pdf' | relative_url }}" class="box span-12" style="display:flex; align-items:center;" target="_blank">
+        <h3>Download Portfolio</h3>
+        <span class="arrow-icon">↗</span>
+    </a>
+
 
 
     <!-- 5. Education -->
@@ -148,10 +154,10 @@ title: Home
         <!-- Item 2 -->
         <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
             <!-- <span style="font-family: monospace; color: var(--text-muted);"></span> -->
-            <!-- <strong>Programming</strong><br> -->
+            <strong>Programming</strong><br>
             <div>
                 <strong></strong><br>
-                <span style="color: var(--text-muted);">Python, Java, html</span>
+                <span style="color: var(--text-muted);">Python, Java, html, Github</span>
             </div>
         </div>
     </div>
