@@ -235,7 +235,7 @@ permalink: /computation-projects/
 
     <!-- 4. PHOTO 2 -->
     <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/comp/sp/Psuedo_Flow_PS.jpg' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/sp/pseudo_c.jpg' | relative_url }}" alt="Lydia Seils">
     </div>
 
     <!-- 4. PHOTO 3 -->
