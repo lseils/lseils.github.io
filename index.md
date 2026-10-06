@@ -154,8 +154,8 @@ title: Home
         <div style="display: grid; grid-template-columns: 150px 1fr; margin-bottom: 1.5rem;">
             <span style="font-family: monospace; color: var(--text-muted);">      </span>
             <div>
-                <strong>Programming</strong><br>
-                <span style="color: var(--text-muted);">Python, Java, html, Github</span>
+                <strong>Programming:</strong><br>
+                <span style="color: var(--text-muted);">Python, Java, HTML, GitHub</span>
             </div>
         </div>
     </div>
