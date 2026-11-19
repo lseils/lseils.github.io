@@ -19,6 +19,11 @@ permalink: /computation-projects/
       grid-template-columns: 1fr 2fr; 
     }
   }
+
+  /* Show the whole image (no cropping) at its natural proportions */
+  .photo-box.fit { height: auto; min-height: 0; display: flex; justify-content: center; align-items: center; }
+  .photo-box.fit img { height: auto; object-fit: contain; }
+  .photo-box.fit.capped img { width: auto; max-width: 100%; max-height: 600px; }
 </style>
 
 
@@ -57,23 +62,23 @@ permalink: /computation-projects/
     </div>
 
     <!-- 1. PHOTO 1 -->
-    <div class="box span-12 photo-box">
-        <img src="{{ '/assets/img/comp/gb/Framework.jpg' | relative_url }}" alt="Lydia Seils">
+    <div class="box span-12 photo-box fit">
+        <img src="{{ '/assets/img/comp/gb/Framework.jpg' | relative_url }}" alt="Gather Balcony framework diagram">
     </div>
 
-    <!-- 1. PHOTO 2 -->
+    <!-- 1. PHOTO 2 (span 4 + span 8 = one row; aspect ratios give matching heights) -->
     <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/comp/gb/FlowChartGraphic.JPG' | relative_url }}" alt="Lydia Seils">
+        <img src="{{ '/assets/img/comp/gb/FlowChartGraphic.JPG' | relative_url }}" alt="Gather Balcony flow chart">
     </div>
 
     <!-- 1. PHOTO 3 -->
-    <div class="box span-4 photo-box">
-        <img src="{{ '/assets/img/comp/gb/Balcony.png' | relative_url }}" alt="Lydia Seils">
+    <div class="box span-8 photo-box">
+        <img src="{{ '/assets/img/comp/gb/Balcony.png' | relative_url }}" alt="Balcony solar panel model">
     </div>
 
     <!-- 1. PHOTO 4 -->
-    <div class="box span-6 photo-box">
-        <img src="{{ '/assets/img/comp/gb/Relevancy.JPG' | relative_url }}" alt="Lydia Seils">
+    <div class="box span-12 photo-box fit capped">
+        <img src="{{ '/assets/img/comp/gb/Relevancy.JPG' | relative_url }}" alt="Gather Balcony relevancy graphic">
     </div>
     
 
